@@ -1,8 +1,8 @@
 # A  program for personal finance calculator 
 # user input for monthly income
-userMonthlyIncome = float(input("Enter your monthly income: "))
+userMonthlyIncome = int(input("Enter your monthly income: "))
 #user input for total monthly expenses
-userTotalExpenses = float(input("Enter your total monthly expenses: "))
+userTotalExpenses = int(input("Enter your total monthly expenses: "))
 
 #calculate monthly savings 
 monthlySavings = userMonthlyIncome - userTotalExpenses
